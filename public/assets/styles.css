@@ -9,6 +9,7 @@ body{
     width: 95%;
     background: #090d13;
     margin: 0 auto;
+    margin-top: 5%;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -64,6 +65,9 @@ li:hover{
 }
 
 h1 {
-    margin-bottom: 0;
-    text-indent: -10000px;
+    margin-top: 10%;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 42px;
 }

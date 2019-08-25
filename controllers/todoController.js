@@ -11,7 +11,6 @@ var toDoSchema = new mongoose.Schema({
 
 var Todo = mongoose.model('Todo', toDoSchema);
 
-var data = [{item: 'get milk'},{item: 'walk dog'}, {item: 'test'}];
 var urlencodedParser = bodyParser.urlencoded({extended: false});
 
 module.exports = function(app){
